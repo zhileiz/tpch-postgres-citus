@@ -31,5 +31,5 @@ for f in *.tbl; do
   mv -- "$f" "${f%.tbl}.csv"
 done
 
-unlink /tmp/dss-data
-ln -s ${ROOT}/data /tmp/dss-data
+unlink /bigdisk/tmp/dss-data
+ln -s ${ROOT}/data /bigdisk/tmp/dss-data
